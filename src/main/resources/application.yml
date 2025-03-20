@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: youtube-downloader
+
+download:
+  directory: ./Downloads
