@@ -123,7 +123,7 @@ public class DownloadService {
             command.add("320");
         } else {
             command.add("--format");
-            command.add("best");
+            command.add("bv*[height<=1080]+ba/b[height<=1080] --merge-output-format mp4");
         }
 
         command.add("-P");
